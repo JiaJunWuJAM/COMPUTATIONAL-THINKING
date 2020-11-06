@@ -1,0 +1,123 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled",
+      "provenance": [],
+      "authorship_tag": "ABX9TyPUN4q7ZFC0djuEVaG12Lyv",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/JiaJunWuJAM/COMPUTATIONAL-THINKING/blob/circleci-project-setup/Untitled.ipynb85\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "xe1kPItmnQs2",
+        "outputId": "5891a62e-2bb7-4a7e-dd95-50e80a4b2a0c",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "source": [
+        "上衣 = int(input(\"請輸入上衣數量?\"))\n",
+        "\n",
+        "褲子 = int(input(\"請輸入上衣數量?\"))\n",
+        "\n",
+        "背心 = int(input(\"請輸入上衣數量?\"))\n",
+        "\n",
+        "總金額 = 上衣*300 + 褲子*350 + 背心*400\n",
+        "\n",
+        "print(\" 訂購服裝的總金額為 \" , 總金額 )"
+      ],
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "請輸入上衣數量?1\n",
+            "請輸入上衣數量?2\n",
+            "請輸入上衣數量?3\n",
+            " 訂購服裝的總金額為  2200\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "anfGwyEwo4aS",
+        "outputId": "7d1cd00f-63c3-4281-b658-2f8b7e643964",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "source": [
+        "罐數 = int(input(\"請輸入購買飲料的罐數?\"))\n",
+        "\n",
+        "金額 = (罐數//12)*200 + (罐數%12)*20\n",
+        "\n",
+        "print(\"需花費\" , 金額)"
+      ],
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "請輸入購買飲料的罐數?30\n",
+            "需花費 520\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "9KWTNTejppF5",
+        "outputId": "044783d4-0b0c-4e77-bee2-edaad486c94c",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "source": [
+        "fir = int(input(\"請輸入第一次期中考成績?\"))\n",
+        "sec = int(input(\"請輸入第二次期中考成績?\"))\n",
+        "final = int(input(\"請輸入期末考成績?\"))\n",
+        "\n",
+        "總和 = fir + sec + final\n",
+        "平均 = 總和/3\n",
+        "\n",
+        "print(\"總分文\" , 總和 , \"平均為\" , 平均)\n"
+      ],
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "請輸入第一次期中考成績?75\n",
+            "請輸入第二次期中考成績?80\n",
+            "請輸入期末考成績?65\n",
+            "總分文 220 平均為 73.33333333333333\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
