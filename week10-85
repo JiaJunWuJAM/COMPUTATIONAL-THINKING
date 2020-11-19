@@ -1,0 +1,107 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled",
+      "provenance": [],
+      "authorship_tag": "ABX9TyMyN89EiD6W2lVo8JXdXsPH",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/JiaJunWuJAM/COMPUTATIONAL-THINKING/blob/circleci-project-setup/week10-85\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "he0w98W1iP9i",
+        "outputId": "9d8be63b-200a-4dc5-9671-01f28333ac9b"
+      },
+      "source": [
+        "time = 132\n",
+        "hour = time // 60\n",
+        "minute = time % 60\n",
+        "\n",
+        "print(time,\"是\",hour,\"小時\",minute,\"分鐘\")\n",
+        "\n",
+        "hour1 = int(time/60)\n",
+        "minute1 = ((time/60))"
+      ],
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "132 是 2 小時 12 分鐘\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sQkskAD5j7i5",
+        "outputId": "6072e961-2ce0-42e9-9623-c83c7e229ee1"
+      },
+      "source": [
+        "人數 = 40\n",
+        "同學號碼 =int(input(\"請輸入一個數字?\"))\n",
+        "組別1 = 人數//同學號碼 >= 8\n",
+        "組別2 = 人數//同學號碼 >= 4\n",
+        "組別3 = 人數//同學號碼 >= 2.7\n",
+        "組別4 = 人數//同學號碼 >= 2\n",
+        "組別5 = 人數//同學號碼 >= 1.6\n",
+        "組別6 = 人數//同學號碼 >= 1.34\n",
+        "組別7 = 人數//同學號碼 >= 1.15\n",
+        "組別8 = 人數//同學號碼 >= 1\n",
+        "\n",
+        "print (\"第一組\",組別1)\n",
+        "print (\"第二組\",組別2)\n",
+        "print (\"第三組\",組別3)\n",
+        "print (\"第四組\",組別4)\n",
+        "print (\"第五組\",組別5)\n",
+        "print (\"第六組\",組別6)\n",
+        "print (\"第七組\",組別7)\n",
+        "print (\"第八組\",組別8)"
+      ],
+      "execution_count": 33,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "請輸入一個數字?40\n",
+            "第一組 False\n",
+            "第二組 False\n",
+            "第三組 False\n",
+            "第四組 False\n",
+            "第五組 False\n",
+            "第六組 False\n",
+            "第七組 False\n",
+            "第八組 True\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
